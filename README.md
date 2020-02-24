@@ -1,6 +1,11 @@
 # * WORK IN PROGRESS *
 
 The output for the strings is not completed.
+
+The flag being that it doesn't output the phrase: --"Data items in ascending order:"--
+
+The other lists sort correctly
+
 It may be a compiler issue.
 
 # BubbleTemplate
