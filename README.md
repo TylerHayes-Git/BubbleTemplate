@@ -42,8 +42,6 @@ void
 BubbleSortT (std::vector < T >& List){
 	
 	T hold;
-	bool swapMade;
-
 
    	 	cout << "Data items in original order:" << endl;
 
@@ -51,14 +49,17 @@ BubbleSortT (std::vector < T >& List){
     	{
         	cout << setw(16) << List [ i ];
     	} // for i
+    	
+    bool swapMade = true;
 
-		swapMade = true;
-    	for ( size_t pass = 0; pass < List.size() && swapMade; ++pass )
+	if (swapMade == true) {
+		
+    	for ( size_t pass = 0; pass < List.size(); ++pass )
     	{	
-    		cout << "\n\n----New Pass----------------------------";
+    		//cout << List.size() << endl;
 			swapMade = false;
 			
-       		for ( size_t j = 0; j < List.size() - 1; ++j )
+       		for ( size_t j = 0; j < List.size(); ++j )
         	{
            		 if ( List [ j ] > List [ j + 1 ] )
             	{
@@ -67,33 +68,36 @@ BubbleSortT (std::vector < T >& List){
                 	List [ j + 1 ] = hold; 
                 	
                 	cout << "\nSwap made:" << endl;
-                	for ( size_t i = 0; i < List.size(); ++i )
-    				{
-        				cout << setw(16) << List [ i ];
-    				}
                 	
-					swapMade = true;
+					for ( size_t i = 0; i < List.size(); ++i )
+    					{
+        					cout << setw(16) << List [ i ];
+    					}
+                	
+						swapMade = true;
 					
-            	} // if
+           		} // if
             	
-            	else
+           		else
 				{
-            		swapMade = false;
-            		//cout << "\n(No swap)\n" << endl; <----Was used to check computation
-				}
+           			swapMade = false;
+        			//cout << "\n(No swap)\n" << endl; //<----Was used to check computation
+				}// else
 
         	} // for j
         	
     	} // for pass
+	
+	}// if swap made
+	
+    		cout << endl << "\nData items in ascending order:" << endl;
 
-    	cout << endl << "\nData items in ascending order:" << endl;
+    		for ( size_t i = 0; i < List.size(); ++i )
+    		{
+    	    	cout << setw ( 16 ) << List [ i ];
+    		} // for i
 
-    	for ( size_t i = 0; i < List.size(); ++i )
-    	{
-    	    cout << setw ( 16 ) << List [ i ];
-    	} // for i
-
-    	cout << endl;
+    		cout << endl;
     			
 }
 
