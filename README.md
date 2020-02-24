@@ -4,9 +4,7 @@ The output for the strings is not completed.
 
 The flag being that it doesn't output the phrase: _"Data items in ascending order:"_
 
-The other lists sort correctly
-
-It may be a compiler issue.
+The other lists sort correctly. So, it may be a compiler issue.
 
 # BubbleTemplate
 An assignment that involves a template to sort multiple data types.
