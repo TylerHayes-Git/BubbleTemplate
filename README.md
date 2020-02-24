@@ -57,8 +57,8 @@ BubbleSortT (std::vector < T >& List){
 
 	if (swapMade == true) {
 		
-    	for ( size_t pass = 0; pass < List.size(); ++pass )
-    	{	
+    	    for ( size_t pass = 0; pass < List.size(); ++pass )
+    	    {	
     		//cout << List.size() << endl;
 			swapMade = false;
 			
@@ -89,7 +89,7 @@ BubbleSortT (std::vector < T >& List){
 
         	} // for j
         	
-    	} // for pass
+    	    } // for pass
 	
 	}// if swap made
 	
