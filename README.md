@@ -1,8 +1,8 @@
-# * WORK IN PROGRESS *
+# **NOTICE**
 
 The output for the strings is not completed.
 
-The flag being that it doesn't output the phrase: --"Data items in ascending order:"--
+The flag being that it doesn't output the phrase: _"Data items in ascending order:"_
 
 The other lists sort correctly
 
