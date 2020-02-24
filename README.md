@@ -6,7 +6,7 @@ The flag being that it doesn't output the phrase: _"Data items in ascending orde
 
 The other lists sort correctly. So, it may be a compiler issue.
 
-Though, I have executed the program with only the list of strings _with and without spaces_ ; and, the problem still persists.
+Though, I have executed the program with only the list of strings _with and without spaces_; and, the problem still persists.
 
 # BubbleTemplate
 An assignment that involves a template to sort multiple data types.
