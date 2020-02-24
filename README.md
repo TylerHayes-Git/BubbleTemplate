@@ -1,5 +1,8 @@
 # * WORK IN PROGRESS *
 
+The output for the strings is not completed.
+It may be a compiler issue.
+
 # BubbleTemplate
 An assignment that involves a template to sort multiple data types.
 
@@ -157,8 +160,6 @@ The output printed with a width of 16 to allow for the proper spacing of the wor
 ```
 Data items in original order:
                5               6               4               9              10              12              89              68              45              41
-
-----New Pass----------------------------
 Swap made:
                5               4               6               9              10              12              89              68              45              41
 Swap made:
@@ -167,21 +168,19 @@ Swap made:
                5               4               6               9              10              12              68              45              89              41
 Swap made:
                5               4               6               9              10              12              68              45              41              89
-
-----New Pass----------------------------
 Swap made:
                4               5               6               9              10              12              68              45              41              89
 Swap made:
                4               5               6               9              10              12              45              68              41              89
 Swap made:
                4               5               6               9              10              12              45              41              68              89
+Swap made:
+               4               5               6               9              10              12              41              45              68              89
 
 Data items in ascending order:
-               4               5               6               9              10              12              45              41              68              89
+               4               5               6               9              10              12              41              45              68              89
 Data items in original order:
                2               6               4               8              10              12              87              68              45              38
-
-----New Pass----------------------------
 Swap made:
                2               4               6               8              10              12              87              68              45              38
 Swap made:
@@ -190,19 +189,17 @@ Swap made:
                2               4               6               8              10              12              68              45              87              38
 Swap made:
                2               4               6               8              10              12              68              45              38              87
-
-----New Pass----------------------------
 Swap made:
                2               4               6               8              10              12              45              68              38              87
 Swap made:
                2               4               6               8              10              12              45              38              68              87
+Swap made:
+               2               4               6               8              10              12              38              45              68              87
 
 Data items in ascending order:
-               2               4               6               8              10              12              45              38              68              87
+               2               4               6               8              10              12              38              45              68              87
 Data items in original order:
              two             six            four           eight             ten          twelve    eighty seven     sixty eight      forty five    thirty eight
-
-----New Pass----------------------------
 Swap made:
              six             two            four           eight             ten          twelve    eighty seven     sixty eight      forty five    thirty eight
 Swap made:
@@ -221,21 +218,4 @@ Swap made:
              six            four           eight             ten          twelve    eighty seven     sixty eight      forty five             two    thirty eight
 Swap made:
              six            four           eight             ten          twelve    eighty seven     sixty eight      forty five    thirty eight             two
-
-----New Pass----------------------------
-Swap made:
-            four             six           eight             ten          twelve    eighty seven     sixty eight      forty five    thirty eight             two
-Swap made:
-            four           eight             six             ten          twelve    eighty seven     sixty eight      forty five    thirty eight             two
-Swap made:
-            four           eight             six             ten    eighty seven          twelve     sixty eight      forty five    thirty eight             two
-Swap made:
-            four           eight             six             ten    eighty seven     sixty eight          twelve      forty five    thirty eight             two
-Swap made:
-            four           eight             six             ten    eighty seven     sixty eight      forty five          twelve    thirty eight             two
-Swap made:
-            four           eight             six             ten    eighty seven     sixty eight      forty five    thirty eight          twelve             two
-
-Data items in ascending order:
-            four           eight             six             ten    eighty seven     sixty eight      forty five    thirty eight          twelve             two
 ```
